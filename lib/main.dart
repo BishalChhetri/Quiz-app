@@ -39,10 +39,19 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': 'Who\'s your favorite instructor?',
       'answers': [
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
+        {'text': 'Max', 'score': 3},
+        {'text': 'Jax', 'score': 2},
+        {'text': 'John', 'score': 4},
+        {'text': 'Ron', 'score': 1},
+      ],
+    },
+    {
+      'questionText': 'What\'s your favorite Place?',
+      'answers': [
+        {'text': 'Ghorepani Poonhill', 'score': 15},
+        {'text': 'Mardi Himal', 'score': 20},
+        {'text': 'Annapurna Base Camp', 'score': 30},
+        {'text': 'Khapuche Lake', 'score': 25},
       ],
     },
   ];
