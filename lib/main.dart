@@ -19,12 +19,12 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'Which player\'s is more heighty?',
       'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Red', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1},
+        {'text': 'Messi', 'score': 10},
+        {'text': 'Neymar', 'score': 5},
+        {'text': 'Cristanio Ronaldo', 'score': 3},
+        {'text': 'Zltan Ibhrihomovic', 'score': 1},
       ],
     },
     {
@@ -37,21 +37,21 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-      'questionText': 'Who\'s your favorite instructor?',
+      'questionText': 'Which city is the most beautiful?',
       'answers': [
-        {'text': 'Max', 'score': 3},
-        {'text': 'Jax', 'score': 2},
-        {'text': 'John', 'score': 4},
-        {'text': 'Ron', 'score': 1},
+        {'text': 'Darjeeling', 'score': 3},
+        {'text': 'Sikim', 'score': 2},
+        {'text': 'Manali', 'score': 1},
+        {'text': 'Pokhara', 'score': 3},
       ],
     },
     {
       'questionText': 'What\'s your favorite Place?',
       'answers': [
-        {'text': 'Ghorepani Poonhill', 'score': 15},
+        {'text': 'Ghorepani Poonhill', 'score': 25},
         {'text': 'Mardi Himal', 'score': 20},
-        {'text': 'Annapurna Base Camp', 'score': 30},
-        {'text': 'Khapuche Lake', 'score': 25},
+        {'text': 'Annapurna Base Camp', 'score': 15},
+        {'text': 'Khapuche Lake', 'score': 23},
       ],
     },
   ];
